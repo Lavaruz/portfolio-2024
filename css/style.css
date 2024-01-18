@@ -1,0 +1,11 @@
+body {
+    background-color: #222;
+    font-family: "Inconsolata", monospace;
+}
+.font-second {
+    font-family: "Manrope", sans-serif;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(150px);
+}
