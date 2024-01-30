@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section id="navbar" class="text-white py-2.5 w-full overlay sticky top-0">
-        <div class="flex justify-between items-center w-[1036px] m-auto py-1">
+    <section id="navbar" class="text-white py-2.5 w-full overlay sticky top-0 px-[8%] md:px-[15%]">
+        <div class="flex justify-between items-center py-1">
             <a class="font-bold text-2xl text-white flex items-center gap-2">
                 <img src="img/KepalaChara.png" alt="" width="50px">
                 <p class="font-second text-xl">Mi</p>
@@ -22,8 +22,8 @@
         </div>
     </section>
     
-    <section id="main" class="pb-[125px] h-screen flex flex-col py-28"  style="background-image: url('img/Login.png')">
-        <div class="w-[1036px] m-auto">
+    <section id="main" class="pb-[125px] min-h-screen flex flex-col py-28 px-[8%] md:px-[15%]"  style="background-image: url('img/Login.png')">
+        <div class="">
             <div id="hero" class="flex justify-center mb-10">
                 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="170" viewBox="0 0 70 33" fill="none">
                     <g clip-path="url(#clip0_54_47)">
@@ -41,16 +41,19 @@
                     </defs>
                 </svg>
             </div>
-            <div class="grid grid-cols-3 gap-8 w-[70%] m-auto">
-                <div class="">
+            <div class="mb-20 mt-10 text-center bg-[rgba(0,0,0,0.3)] md:bg-[rgba(0,0,0,0.1)] backdrop-blur-[150px] rounded-lg w-max px-10 m-auto py-2.5">
+                <a href="https://hup.co.id/" target="_blank" class="text-white font-semibold text-lg font-second mt-4">cc: Hup Indonesia !</a>
+            </div>
+            <div class="grid md:grid-cols-3 grid-cols-4 gap-y-8 md:gap-8 md:w-[70%] m-auto">
+                <div class="md:col-span-1 col-span-2">
                     <p class="text-white font-bold text-xl font-second">Timeline</p>
                     <p class="text-white/80 font-medium text-lg font-second mt-4">2023 - Present</p>
                 </div>
-                <div class="">
+                <div class="md:col-span-1 col-span-2">
                     <p class="text-white font-bold text-xl font-second">Team</p>
-                    <p class="text-white/80 font-medium text-lg font-second mt-4 flex gap-2 items-center"><img src="img/KepalaChara.png" width="30px" alt="" title="Assami">Farel, Briyan, Glenn</p>
+                    <p class="text-white/80 font-medium text-lg font-second mt-4">Assami, Farel, Briyan, Glenn</p>
                 </div>
-                <div class="">
+                <div class="md:col-span-1 col-span-4">
                     <p class="text-white font-bold text-xl font-second">Roles</p>
                     <p class="text-white/80 font-medium text-lg font-second mt-4">Manage, Develop, Maintain, Tech Research</p>
                 </div>
@@ -58,34 +61,34 @@
         </div>
     </section>
 
-    <section id="overview" class="bg-[#1E1E1E] py-28">
-        <div class="w-[1036px] m-auto">
-            <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
-                <img src="img/Interview.png" alt="" width="100%">
+    <section id="overview" class="bg-[#1E1E1E] py-28 px-[8%] md:px-[15%]">
+        <div class="">
+            <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
+                <img src="img/Interview.png" alt="" class="w-full h-full object-cover rounded-lg overflow-hidden min-h-[200px]">
             </div>
-            <div class="mt-28 w-[60%] m-auto">
-                <p class="text-[50px] font-bold text-white/80 mb-5">Overview</p>
-                <p class="text-[20px] font-medium text-white/60 font-second">Kami menyediakan lingkungan yang aman bagi para mahasiswa untuk mengeksplorasi peluang magang yang sesuai dengan minat dan keahlian mereka. Di sini, mereka dapat mendaftarkan diri dan mengakses berbagai peluang magang yang relevan dengan jurusan mereka. Temukan kesempatan magang terbaik untuk memulai perjalanan karier Anda dan raih pengalaman berharga di industri pilihan Anda.</p>
+            <div class="md:mt-28 mt-14 md:w-[60%] w-[80%] m-auto">
+                <p class="md:text-[50px] text-4xl font-bold text-white/80 mb-5">Overview</p>
+                <p class="md:text-[20px] text-base font-medium text-white/60 font-second">Kami menyediakan lingkungan yang aman bagi para mahasiswa untuk mengeksplorasi peluang magang yang sesuai dengan minat dan keahlian mereka. Di sini, mereka dapat mendaftarkan diri dan mengakses berbagai peluang magang yang relevan dengan jurusan mereka. Temukan kesempatan magang terbaik untuk memulai perjalanan karier Anda dan raih pengalaman berharga di industri pilihan Anda.</p>
             </div>
         </div>
     </section>
 
-    <section id="gallery" class="bg-[#1E1E1E] py-28">
-        <div class="w-[1036px] m-auto flex flex-col gap-20">
+    <section id="gallery" class="bg-[#1E1E1E] py-28 px-[8%] md:px-[15%]">
+        <div class="flex flex-col gap-20">
             <div class="">
-                <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
+                <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
                     <img src="img/Screenshot (533).png" alt="" width="100%">
                 </div>
                 <p class="font-second text-white/60 mt-2">*Apply for job</p>
             </div>
             <div class="">
-                <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
+                <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
                     <img src="img/Screenshot (535).png" alt="" width="100%">
                 </div>
                 <p class="font-second text-white/60 mt-2">*Maintain your applied status</p>
             </div>
             <div class="">
-                <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
+                <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
                     <img src="img/Screenshot (536).png" alt="" width="100%">
                 </div>
                 <p class="font-second text-white/60 mt-2">*You can post a job if you are a recruiter.</p>
@@ -93,15 +96,15 @@
         </div>
     </section>
 
-    <section id="status" class="bg-[#1E1E1E] py-28">
-        <div class="w-[1036px] m-auto">
+    <section id="status" class="bg-[#1E1E1E] py-28 px-[8%] md:px-[15%]">
+        <div class="">
             <p class="text-[50px] font-bold text-white/80 mb-5">Status</p>
             <p class="text-[20px] font-medium text-white/60 font-second">Under Development</p>
         </div>
     </section>
 
-    <footer class="bg-[#1E1E1E] py-28">
-        <div class="grid grid-cols-6 w-[1036px] m-auto">
+    <footer class="bg-[#1E1E1E] py-28 px-[8%] md:px-[15%]">
+        <div class="md:grid md:grid-cols-6 flex flex-col gap-10 m-auto">
             <div class="col-span-4 flex items-center gap-2 text-white/80 font-medium text-lg">
                 <p>© 2024 Assami Muzaki</p>
                 <p>•</p>

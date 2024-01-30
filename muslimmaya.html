@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-[#358f6c]">
-    <section id="navbar" class="text-white py-2.5 w-full overlay sticky top-0">
-        <div class="flex justify-between items-center w-[1036px] m-auto py-1">
+    <section id="navbar" class="text-white py-2.5 w-full overlay sticky top-0 px-[8%] md:px-[15%]">
+        <div class="flex justify-between items-center py-1">
             <a class="font-bold text-2xl text-white flex items-center gap-2">
                 <img src="img/KepalaChara.png" alt="" width="50px">
                 <p class="font-second text-xl">Mi</p>
@@ -22,21 +22,24 @@
         </div>
     </section>
     
-    <section id="main" class="pb-[125px] h-screen flex flex-col py-28 bg-[#358f6c]">
-        <div class="w-[1036px] m-auto">
+    <section id="main" class="pb-[125px] min-h-screen flex flex-col py-28 bg-[#358f6c] px-[8%] md:px-[15%]">
+        <div class="">
             <div id="hero" class="flex justify-center mb-10">
                 <img src="img/logo.png" alt="" width="350px">
             </div>
-            <div class="grid grid-cols-3 gap-8 w-[70%] m-auto">
-                <div class="">
+            <div class="mb-20 mt-10 text-center bg-[rgba(0,0,0,0.3)] md:bg-[rgba(0,0,0,0.1)] backdrop-blur-[150px] rounded-lg w-max px-10 m-auto py-2.5">
+                <a href="https://www.festivo.co/" target="_blank" class="text-white font-semibold text-lg font-second mt-4">cc: Festivo</a>
+            </div>
+            <div class="grid md:grid-cols-3 grid-cols-4 gap-y-8 md:gap-8 md:w-[70%] m-auto">
+                <div class="md:col-span-1 col-span-2">
                     <p class="text-white font-bold text-xl font-second">Timeline</p>
                     <p class="text-white/80 font-medium text-lg font-second mt-4">2019 - Present</p>
                 </div>
-                <div class="">
+                <div class="md:col-span-1 col-span-2">
                     <p class="text-white font-bold text-xl font-second">Team</p>
                     <p class="text-white/80 font-medium text-lg font-second mt-4 flex gap-2 items-center"><img src="img/KepalaChara.png" width="30px" alt="" title="Assami">, Farel, Chelsea</p>
                 </div>
-                <div class="">
+                <div class="md:col-span-1 col-span-4">
                     <p class="text-white font-bold text-xl font-second">Roles</p>
                     <p class="text-white/80 font-medium text-lg font-second mt-4">Develop, Maintain</p>
                 </div>
@@ -44,28 +47,28 @@
         </div>
     </section>
 
-    <section id="overview" class="bg-[#EBEBEB] py-28">
-        <div class="w-[1036px] m-auto">
+    <section id="overview" class="bg-[#EBEBEB] py-28 px-[8%] md:px-[15%]">
+        <div class="">
             <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
-                <img src="img/Screenshot (527).png" alt="" width="100%">
+                <img src="img/Screenshot (527).png" alt="" class="w-full h-full object-cover rounded-lg overflow-hidden min-h-[200px]">
             </div>
-            <div class="mt-28 w-[60%] m-auto">
-                <p class="text-[50px] font-bold text-[#358f6c]/80 mb-5">Overview</p>
-                <p class="text-[20px] font-medium text-[#358f6c]/60 font-second">Optimalkan perjalanan pengajaran Anda dengan Sistem Manajemen Pembelajaran (LMS) terbaru kami. Dirancang untuk membantu para pendidik dalam membuat ujian, memonitor perkembangan siswa, dan mengorganisir dengan efisien baik siswa maupun guru. Tingkatkan pengalaman mengajar Anda, sempurnakan tugas administratif, dan ciptakan lingkungan belajar yang kolaboratif.</p>
+            <div class="md:mt-28 mt-14 md:w-[60%] w-[80%] m-auto">
+                <p class="md:text-[50px] text-4xl font-bold text-[#358f6c] mb-5">Overview</p>
+                <p class="md:text-[20px] text-base font-medium text-[#358f6c] font-second">Optimalkan perjalanan pengajaran Anda dengan Sistem Manajemen Pembelajaran (LMS) terbaru kami. Dirancang untuk membantu para pendidik dalam membuat ujian, memonitor perkembangan siswa, dan mengorganisir dengan efisien baik siswa maupun guru. Tingkatkan pengalaman mengajar Anda, sempurnakan tugas administratif, dan ciptakan lingkungan belajar yang kolaboratif.</p>
             </div>
         </div>
     </section>
 
-    <section id="gallery" class="bg-[#358f6c] py-28">
-        <div class="w-[1036px] m-auto flex flex-col gap-20">
+    <section id="gallery" class="bg-[#358f6c] py-28 px-[8%] md:px-[15%]">
+        <div class="flex flex-col gap-20">
             <div class="">
-                <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
+                <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
                     <img src="img/Screenshot (528).png" alt="" width="100%">
                 </div>
                 <p class="font-second text-white/80 mt-2">*Maintain your student</p>
             </div>
             <div class="">
-                <div class="rounded-2xl border-2 border-white/60 overflow-hidden">
+                <div class="rounded-2xl border-2 border-white/30 overflow-hidden">
                     <img src="img/Screenshot (529).png" alt="" width="100%">
                 </div>
                 <p class="font-second text-white/80 mt-2">*Make an exams</p>
@@ -73,16 +76,16 @@
         </div>
     </section>
 
-    <section id="status" class="bg-[#358f6c] py-28">
+    <section id="status" class="bg-[#358f6c] py-28 px-[8%] md:px-[15%]">
         <div class="w-[1036px] m-auto">
             <p class="text-[50px] font-bold text-white/80 mb-5">Status</p>
             <p class="text-[20px] font-medium text-white/60 font-second">Under Development</p>
         </div>
     </section>
 
-    <footer class="bg-[#EDEDED] py-28">
-        <div class="grid grid-cols-6 w-[1036px] m-auto">
-            <div class="col-span-4 flex items-center gap-2 text-[#358f6c]/80 font-medium text-lg">
+    <footer class="bg-[#1E1E1E] py-28 px-[8%] md:px-[15%]">
+        <div class="md:grid md:grid-cols-6 flex flex-col gap-10 m-auto">
+            <div class="col-span-4 flex items-center gap-2 text-white/80 font-medium text-lg">
                 <p>© 2024 Assami Muzaki</p>
                 <p>•</p>
                 <p>Depok</p>
@@ -90,17 +93,17 @@
             <div class="col-span-2">
                 <div class="grid grid-cols-2">
                     <div class="">
-                        <p class="text-[#000] font-bold font-second">Elsewhere</p>
-                        <div class="flex flex-col gap-4 mt-4 font-second text-[#358f6c]/70 font-semibold">
+                        <p class="text-[#3DD1DB] font-bold font-second">Elsewhere</p>
+                        <div class="flex flex-col gap-4 mt-4 font-second text-white/70 font-semibold">
                             <a target="_blank" href="https://github.com/Lavaruz">Github</a>
                             <a target="_blank" href="https://www.linkedin.com/in/assami-muzaki-1b2003191/">Linkedin</a>
                         </div>
                     </div>
                     <div class="">
-                        <p class="text-[#000] font-bold font-second">Contact</p>
+                        <p class="text-[#3DD1DB] font-bold font-second">Contact</p>
                         <div class="flex flex-col mt-4">
-                            <a href="mailto:assamim80@gmail.com" class="font-bold text-[#358f6c]/80 font-second">Gmail</a>
-                            <p class="text-[#358f6c]/60 font-normal font-second text-[#358f6c] text-sm">assamim80@gmail.com</p>
+                            <a href="mailto:assamim80@gmail.com" class="font-bold text-white/80 font-second">Gmail</a>
+                            <p class="text-white/60 font-normal font-second text-white text-sm">assamim80@gmail.com</p>
                         </div>
                     </div>
                 </div>
